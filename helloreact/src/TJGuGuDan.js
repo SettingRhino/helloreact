@@ -1,6 +1,7 @@
 import React,{useState,useEffect,useRef} from "react"
 
 
+
 const TJGuGuDan=(props)=>{
   const [numbers,setNumbers]=useState([])
   const [resultInput,setResultInput]=useState('')
