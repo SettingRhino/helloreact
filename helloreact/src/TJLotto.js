@@ -13,9 +13,9 @@ const TJLotto = (props)=>{
         }
         setLottoNumbers(templottos.concat())
     }
-    const  callApi = (e) => {
+  /*  const  callApi = (e) => {
         e.preventDefault()
-
+        //
         fetch("https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=903",{
           mode: 'cors',
           headers:{
@@ -26,7 +26,7 @@ const TJLotto = (props)=>{
             .then(json => {
                 setLottoAPI(json.toString())
             })
-    }
+    }*/
 
 
 
@@ -41,7 +41,7 @@ const TJLotto = (props)=>{
         <div>{lottonumbers[5]}</div>
         <div>{lottonumbers[6]}</div>
         <button onClick={handlesearchlotto}>조회</button>
-        <button onClick={callApi}>API조회</button>
+
     </div>
 )
 }
