@@ -2,7 +2,7 @@ import React, {useState} from "react"
 
 const TJLotto = (props)=>{
     const [lottonumbers,setLottoNumbers]= useState([])
-    const [lottoAPI,setLottoAPI]=useState("")
+  //  const [lottoAPI,setLottoAPI]=useState("")
     const handlesearchlotto=(e)=>{
         const templottos=[]
         while(templottos.length<7){
