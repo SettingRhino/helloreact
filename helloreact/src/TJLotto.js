@@ -15,7 +15,7 @@ const TJLotto = (props)=>{
         }
         setLottoball(templottos.map((num)=>{
           return(<TJLottoBall lottonumber={num}/>)
-        }).concat())
+        }))
     }
 
     return (//ListItems를 하위로 만들어준다.=>props로 배열을 넘겨주면 ListItem은 Item을 그만큼 만들어줌
