@@ -1,8 +1,12 @@
 import React from "react"
 import TJLotto from "./TJLotto";
+import TJGuGuDan from "./TJGuGuDan";
 const Taejune=(props)=>{
     return(
-        <div><TJLotto/></div>
+        <div>
+        <TJLotto/>
+        <TJGuGuDan/>
+        </div>
     )
 }
 export default Taejune;
