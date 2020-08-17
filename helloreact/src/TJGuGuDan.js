@@ -1,5 +1,6 @@
 import React,{useState,useEffect,useRef} from "react"
 
+
 const TJGuGuDan=(props)=>{
   const [numbers,setNumbers]=useState([])
   const [resultInput,setResultInput]=useState('')
@@ -32,7 +33,7 @@ const TJGuGuDan=(props)=>{
 
   }
   return(
-    <div>
+    <div className='TJGuGuDan'>
     <div>{numbers[0]} X {numbers[1]} 은 </div>
     <form onSubmit={onSubmit}>
     <input ref={inputRef} type="number" onChange={onChanged} value={resultInput}/><button>결과</button>
