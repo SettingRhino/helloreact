@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import Yunha from "./Yunha";
 import Taejune from "./Taejune";
+import TJEventEx from "./TJEventEx"
 function App() {
   return (
     <div>
         <div>
-            <Yunha/>
+            <Taejune/>
         </div>
         <div>
-            <Taejune/>
+        <TJEventEx/>
         </div>
     </div>
   );
