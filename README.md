@@ -9,3 +9,12 @@
 # rebase3commit 1/3
 # rebase3commit 2/3
 # rebase3commit 3/3
+# reset 1
+# reset 2
+# reset 3
+# reset 4
+# resetchild0
+# resetchild123
+# resetchild1
+# reset 5
+# reset 6
